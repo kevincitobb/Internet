@@ -12,13 +12,13 @@
 		9B54533B290C8F7D00968425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B545339290C8F7D00968425 /* Main.storyboard */; };
 		9B54533D290C8F7E00968425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B54533C290C8F7E00968425 /* Assets.xcassets */; };
 		9B545340290C8F7E00968425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B54533E290C8F7E00968425 /* LaunchScreen.storyboard */; };
-		9B81D2A9293256990019F07C /* Personaje.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B81D2A8293256990019F07C /* Personaje.swift */; };
 		9B81D2AB293256E10019F07C /* PersonajeDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B81D2AA293256E10019F07C /* PersonajeDataManager.swift */; };
 		9B81D2AE293257290019F07C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B81D2AD293257290019F07C /* WebKit.framework */; };
 		9B81D2B0293257350019F07C /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B81D2AF293257350019F07C /* Network.framework */; };
 		9B81D2B429325BC00019F07C /* PersonajeMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B81D2B329325BC00019F07C /* PersonajeMaster.swift */; };
 		9B81D2B629325BD20019F07C /* cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B81D2B529325BD20019F07C /* cell.swift */; };
 		9B81D2BA29325C200019F07C /* PersonajeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B81D2B929325C200019F07C /* PersonajeDetail.swift */; };
+		9B81D2BC293266C40019F07C /* Personaje.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B81D2BB293266C40019F07C /* Personaje.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,13 +29,13 @@
 		9B54533C290C8F7E00968425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B54533F290C8F7E00968425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B545341290C8F7E00968425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B81D2A8293256990019F07C /* Personaje.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Personaje.swift; path = ../../../../../Downloads/Personaje.swift; sourceTree = "<group>"; };
 		9B81D2AA293256E10019F07C /* PersonajeDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonajeDataManager.swift; sourceTree = "<group>"; };
 		9B81D2AD293257290019F07C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		9B81D2AF293257350019F07C /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = System/Library/Frameworks/Network.framework; sourceTree = SDKROOT; };
 		9B81D2B329325BC00019F07C /* PersonajeMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonajeMaster.swift; sourceTree = "<group>"; };
 		9B81D2B529325BD20019F07C /* cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cell.swift; sourceTree = "<group>"; };
 		9B81D2B929325C200019F07C /* PersonajeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonajeDetail.swift; sourceTree = "<group>"; };
+		9B81D2BB293266C40019F07C /* Personaje.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personaje.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +88,8 @@
 		9B81D2A72932567C0019F07C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				9B81D2A8293256990019F07C /* Personaje.swift */,
 				9B81D2AA293256E10019F07C /* PersonajeDataManager.swift */,
+				9B81D2BB293266C40019F07C /* Personaje.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,13 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B81D2A9293256990019F07C /* Personaje.swift in Sources */,
 				9B81D2BA29325C200019F07C /* PersonajeDetail.swift in Sources */,
 				9B545334290C8F7D00968425 /* AppDelegate.swift in Sources */,
 				9B545336290C8F7D00968425 /* SceneDelegate.swift in Sources */,
 				9B81D2AB293256E10019F07C /* PersonajeDataManager.swift in Sources */,
 				9B81D2B629325BD20019F07C /* cell.swift in Sources */,
 				9B81D2B429325BC00019F07C /* PersonajeMaster.swift in Sources */,
+				9B81D2BC293266C40019F07C /* Personaje.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
